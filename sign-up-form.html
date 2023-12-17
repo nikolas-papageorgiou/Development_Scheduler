@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Development Scheduler</title>
+    <!--The width property will control the size of the viewport. initial-scale=1.0 means the initial zoom scale is 100% 
+    user-scalable=yes means we allow the user to zoom-in zoom-out.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+    <meta name="This platform has developed to coordinate tasks of a team of developers.">
+    <meta http-equiv="Nikos Papageorgiou" content="NP development team">
+    <title>Development Scheduler</title>
+    <link rel="icon" href="./assets/gear.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id=container>
+        <!--Header & Navigation Bar Section-->
+        <header id="header">
+               <h1>Πλατφόρμα Διαχείρηση Εργασιών</h1>
+               <div class="container" style="margin-bottom: 10px;">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0%;">
+                    <div class="container-fluid" >
+                        <a href="./index.html"><img src="./assets/output-onlinepngtools.png" width="110"/></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <ul>
+                               <li><a class="nav-link active" aria-current="page" href="./index.html" style="color: white;font-size:large; " >Αρχική</a>
+                               </li> 
+
+                               <li><a class="nav-link" href="./task-lists.html" style="color: white; font-size:large; ">Λίστες Εργασιών</a>
+                               </li>
+                                <li><a class="nav-link" href="/teams.html" style="color: white; font-size:large;">Ομάδες</a>
+                                </li>
+                                <li><a class="nav-link" href="/login.html" style="color: white; font-size:large;">Είσοδος</a>          
+                                </li>
+                            </ul>
+                          
+                        </div>
+                      </div>
+              </div>
+            </nav>
+          </div>  
+        </header>
+        <!--Main Body Section-->
+        <div id="main-body">
+          
+          <form id="login-form" style="height: 500px;">
+            <div class="form-group"  >
+              <label for="username">Όνoμα Χρήστη:</label>
+              <input type="username" class="form-control" id="username" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+            
+            <div class="form-group">
+              <label for="password">Κωδικός Πρόσβασης:</label>
+              <input type="password" class="form-control" id="password" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="password">Επιβεβαίωση Κωδικού:</label>
+                <input type="password" class="form-control" id="password" placeholder="">
+              </div>
+            <button type="submit" class="btn btn-primary login-btn">Είσοδος</button>
+            
+          </form>
+          
+        </div>
+        <!--Footer Section-->
+        <footer class="footer">
+            <a href="./assets/Οροι και Προυποθεσεις χρησης της Ιστοσελιδας.pdf" target="_blank"><button>Όροι Χρήσης</button></a> | <a href="./assets/Πολιτική Απορρήτου.pdf" target="_blank"><button>Πολιτική Απορρήτου</button></a>
+
+          </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
